@@ -1,5 +1,5 @@
 import shutil
-
+from docx import Document
 
 def retornar_codigo(texto: str):
     indice_inicio = texto.find("```python")
@@ -40,3 +40,8 @@ def copiar_pasta(origin: str, destiny: str):
         print(f"A pasta '{destiny}' já existe. A cópia foi cancelada.")
     except Exception as e:
         print(f"Erro ao copiar pasta: {e}")
+
+def cadastrar_doc(documentation: str, path: str):
+    doc = Document()
+    doc.add_paragraph(documentation)
+    doc.save(f'{path}\\Documentação.docx')
