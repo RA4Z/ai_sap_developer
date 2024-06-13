@@ -1,0 +1,41 @@
+{
+    "not_found": "Traduction non trouvée !",
+    "greeting": "Bienvenue sur $automation_name, $username",
+
+    "requested": "demandé par",
+    "developed": "et développé par",
+    "exec_history": "Voir l'historique d'exécution",
+
+    "run_script": "Exécuter l'automatisation",
+    "run_sure": "Êtes-vous sûr de vouloir exécuter cette automatisation ?",
+
+    "empty_title": "Données vides",
+    "empty_body": "Il n'y a pas de données dans les champs !",
+
+    "aproximately": "Cela prendra environ",
+
+    "end_execution_title": "Exécution de l'algorithme",
+    "end_execution_body": "L'automatisation a été exécutée avec succès !",
+
+    "history_automation_title": "Historique de l'automatisation",
+    "history_automation_body": "Il n'y a pas d'historique d'exécution pour l'utilisateur actif dans l'algorithme actuel !",
+    "history_executed": "Exécutions de l'utilisateur actif...\n",
+    "history_executed_in": "éléments, exécutés dans",
+    "history_for_user": "Historique d'exécution de $automation_name pour l'utilisateur $username",
+
+    "sap_error": "L'erreur $error est survenue !",
+    "sap_transaction_err_title": "Erreur de sélection de transaction",
+
+    "sap_menu_err_title": "Erreur de code !",
+    "sap_menu_err_body": "Le chemin du menu doit être au format 'chemin1;chemin2;chemin3'",
+
+    "sap_open_err_title": "SAP n'est pas ouvert !",
+    "sap_open_err_body": "SAP doit être ouvert pour exécuter ce script ! Veuillez l'ouvrir et réessayer.",
+
+    "sap_logon_err_title": "L'utilisateur SAP n'est pas connecté !",
+    "sap_logon_err_body": "Vous devez vous connecter à SAP pour exécuter ce script ! Veuillez vous connecter et réessayer.",
+
+    "sap_system_err_body": "Vous avez ouvert SAP Quality Assurance, (SAP QA)\nDe nombreuses choses peuvent ne pas se dérouler comme prévu !",
+
+    "sap_language_err_body": "Votre système SAP n'a actuellement pas la langue $language sélectionnée, de nombreuses erreurs peuvent survenir!"
+}

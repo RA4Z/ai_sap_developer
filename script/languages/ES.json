@@ -1,0 +1,41 @@
+{
+    "not_found": "¡Traducción no encontrada!",
+    "greeting": "Bienvenido a $automation_name, $username",
+
+    "requested": "solicitado por",
+    "developed": "y desarrollado por",
+    "exec_history": "Ver Historial de Ejecución",
+
+    "run_script": "Ejecutar Automatización",
+    "run_sure": "¿Estás seguro de que quieres ejecutar esta Automatización?",
+
+    "empty_title": "Datos Vacíos",
+    "empty_body": "¡No hay datos en los campos!",
+
+    "aproximately": "Tomará aproximadamente",
+
+    "end_execution_title": "Ejecución del Algoritmo",
+    "end_execution_body": "¡La automatización se ejecutó con éxito!",
+
+    "history_automation_title": "Historial de Automatización",
+    "history_automation_body": "¡No hay historial de ejecución para el usuario activo en el Algoritmo actual!",
+    "history_executed": "Ejecuciones del usuario activo...\n",
+    "history_executed_in": "elementos, ejecutados en",
+    "history_for_user": "Historial de ejecuciones de $automation_name para el usuario $username",
+
+    "sap_error": "¡Ha ocurrido el error $error!",
+    "sap_transaction_err_title": "Error seleccionando transacción",
+
+    "sap_menu_err_title": "¡Error de Código!",
+    "sap_menu_err_body": "La ruta del menú debe estar en el formato 'ruta1;ruta2;ruta3'",
+
+    "sap_open_err_title": "¡SAP no está abierto!",
+    "sap_open_err_body": "¡SAP debe estar abierto para ejecutar este script! Por favor, ábrelo e intenta ejecutarlo nuevamente.",
+
+    "sap_logon_err_title": "¡El usuario de SAP no ha iniciado sesión!",
+    "sap_logon_err_body": "¡Necesitas iniciar sesión en SAP para ejecutar este script! Por favor, inicia sesión e intenta nuevamente.",
+
+    "sap_system_err_body": "Tienes abierto SAP Quality Assurance, (SAP QA)\n¡Muchas cosas pueden no funcionar como se desea!",
+
+    "sap_language_err_body": "Tu sistema SAP actualmente no tiene seleccionado el idioma $language, ¡pueden ocurrir muchos errores!"
+}

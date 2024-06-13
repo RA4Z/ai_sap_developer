@@ -1,0 +1,41 @@
+{
+    "not_found": "Translation not found!",
+    "greeting": "Welcome to $automation_name, $username",
+
+    "requested": "requested by",
+    "developed": "and developed by",
+    "exec_history": "View Exec History",
+
+    "run_script": "Run Automation",
+    "run_sure": "Are you sure you want to run this Automation?",
+
+    "empty_title": "Empty Data",
+    "empty_body": "There are no data in the fields!",
+
+    "aproximately": "It will take aproximately",
+
+    "end_execution_title": "Algorithm Execution",
+    "end_execution_body": "Automation was executed successfully!",
+
+    "history_automation_title": "Automation History",
+    "history_automation_body": "There is no execution history for the active user in the actual Algorithm!",
+    "history_executed": "Active user executions...\n",
+    "history_executed_in": "items, executed in",
+    "history_for_user": "$automation_name run history for the user $username",
+
+    "sap_error": "The error $error has happened!",
+    "sap_transaction_err_title": "Error selecting transaction",
+
+    "sap_menu_err_title": "Code Error!",
+    "sap_menu_err_body": "The menu path must be in the format 'path1;path2;path3'",
+
+    "sap_open_err_title": "SAP is not open!",
+    "sap_open_err_body": "SAP must be open to run this script! Please, open it and try to run again.",
+
+    "sap_logon_err_title": "SAP user is logged out!",
+    "sap_logon_err_body": "You need to log in to SAP to run this script! Please log in and try again.",
+
+    "sap_system_err_body": "You're with SAP Quality Assurance open, (SAP QA)\nMany things may not happen as desired!",
+
+    "sap_language_err_body": "Your SAP system currently does not have the $language language selected, many errors may occur!"
+}

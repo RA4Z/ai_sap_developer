@@ -1,0 +1,41 @@
+{
+    "not_found": "Übersetzung nicht gefunden!",
+    "greeting": "Willkommen bei $automation_name, $username",
+
+    "requested": "angefordert von",
+    "developed": "und entwickelt von",
+    "exec_history": "Ausführungsverlauf anzeigen",
+
+    "run_script": "Automatisierung ausführen",
+    "run_sure": "Sind Sie sicher, dass Sie diese Automatisierung ausführen möchten?",
+
+    "empty_title": "Leere Daten",
+    "empty_body": "Es sind keine Daten in den Feldern vorhanden!",
+
+    "aproximately": "Es wird ungefähr dauern",
+
+    "end_execution_title": "Algorithmusausführung",
+    "end_execution_body": "Die Automatisierung wurde erfolgreich ausgeführt!",
+
+    "history_automation_title": "Automatisierungsverlauf",
+    "history_automation_body": "Es gibt keinen Ausführungsverlauf für den aktiven Benutzer im aktuellen Algorithmus!",
+    "history_executed": "Ausführungen des aktiven Benutzers...\n",
+    "history_executed_in": "Elemente, ausgeführt in",
+    "history_for_user": "Ausführungsverlauf von $automation_name für den Benutzer $username",
+
+    "sap_error": "Der Fehler $error ist aufgetreten!",
+    "sap_transaction_err_title": "Fehler beim Auswählen der Transaktion",
+
+    "sap_menu_err_title": "Codefehler!",
+    "sap_menu_err_body": "Der Menüpfad muss im Format 'Pfad1;Pfad2;Pfad3' sein",
+
+    "sap_open_err_title": "SAP ist nicht geöffnet!",
+    "sap_open_err_body": "SAP muss geöffnet sein, um dieses Skript auszuführen! Bitte öffnen Sie es und versuchen Sie es erneut.",
+
+    "sap_logon_err_title": "SAP-Benutzer ist abgemeldet!",
+    "sap_logon_err_body": "Sie müssen sich bei SAP anmelden, um dieses Skript auszuführen! Bitte melden Sie sich an und versuchen Sie es erneut.",
+
+    "sap_system_err_body": "Sie haben SAP-Qualitätssicherung geöffnet, (SAP QA)\nViele Dinge können nicht wie gewünscht funktionieren!",
+
+    "sap_language_err_body": "Ihr SAP-System hat derzeit nicht die Sprache $language ausgewählt, es können viele Fehler auftreten!"
+}

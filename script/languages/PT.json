@@ -1,0 +1,41 @@
+{
+    "not_found": "Tradução não encontrada!",
+    "greeting": "Bem-vindo ao $automation_name, $username",
+
+    "requested": "solicitado por",
+    "developed": "e desenvolvido por",
+    "exec_history": "Ver Histórico de Execução",
+
+    "run_script": "Executar Automação",
+    "run_sure": "Você tem certeza de que deseja executar esta Automação?",
+
+    "empty_title": "Dados Vazios",
+    "empty_body": "Não há dados nos campos!",
+
+    "aproximately": "Levará aproximadamente",
+
+    "end_execution_title": "Execução do Algoritmo",
+    "end_execution_body": "A Automação foi executada com sucesso!",
+
+    "history_automation_title": "Histórico de Automação",
+    "history_automation_body": "Não há histórico de execução para o usuário ativo no Algoritmo atual!",
+    "history_executed": "Execuções do usuário ativo...\n",
+    "history_executed_in": "itens, executados em",
+    "history_for_user": "Histórico de execução do $automation_name para o usuário $username",
+
+    "sap_error": "O erro $error aconteceu!",
+    "sap_transaction_err_title": "Erro ao selecionar transação",
+
+    "sap_menu_err_title": "Erro de Código!",
+    "sap_menu_err_body": "O caminho do menu deve estar no formato 'caminho1;caminho2;caminho3'",
+
+    "sap_open_err_title": "SAP não está aberto!",
+    "sap_open_err_body": "O SAP deve estar aberto para executar este script! Por favor, abra-o e tente executar novamente.",
+
+    "sap_logon_err_title": "Usuário SAP desconectado!",
+    "sap_logon_err_body": "Você precisa fazer login no SAP para executar este script! Por favor, faça login e tente novamente.",
+
+    "sap_system_err_body": "Você está com o SAP Quality Assurance aberto, (SAP QA)\nMuitas coisas podem não acontecer conforme desejado!",
+
+    "sap_language_err_body": "Seu sistema SAP atualmente não tem o idioma $language selecionado, muitos erros podem ocorrer!"
+}
