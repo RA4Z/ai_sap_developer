@@ -1,8 +1,9 @@
 from gemini_config import develop_code
 from functions import retornar_codigo, pegar_texto_externo, copiar_pasta, cadastrar_doc
+import sys
 
 if __name__ == '__main__':
-    output = develop_code("COHV\nvariante /PS\nexecutar\narmazenar todos os dados da coluna \"PROJN\"\n\nCN47N\ncolar todos os dados salvos no campo \"Elemento PEP\"\nescrever \"/INI_MONT\" no campo \"Layout\"\nexecutar\nescrever dados da tabela na planilha chamada \"Esquema.xlsm\"")
+    output = develop_code(sys.argv[1])
     codigo = retornar_codigo(output)
     documentation = pegar_texto_externo(output)
 
