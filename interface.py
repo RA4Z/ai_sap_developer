@@ -17,7 +17,7 @@ def main(page: ft.Page):
     )
 
     input_container = ft.Container(
-        height=650,
+        height=575,
         padding=ft.padding.all(15),
         content=ft.TextField(
             multiline=True,
@@ -45,18 +45,15 @@ coletar dados da coluna "AUFNR"
     )
 
     info_container = ft.Container(
-        padding=ft.padding.all(15),
-        content=ft.TextField(
-            multiline=True,
+        content=ft.Text(
             expand=True,
-            hint_text="Digite seu texto aqui",
-            border_color=ft.colors.TRANSPARENT,
+            size=20,
             text_align=ft.TextAlign.CENTER,
             value="""
-            Para executar esse sistema o usuário deve preencher no campo ao lado todo o procedimento que 
-            deverá ser realizado pela automatização. 
-            Após pressionar o botão para criar a automatização o usuário deverá acessar a pasta \"C:\\IAron\"
-            """
+Para executar esse sistema o usuário deve preencher no campo ao lado todo o procedimento que deverá ser realizado pela automatização. 
+Após pressionar o botão para criar a automatização o usuário deverá acessar a pasta \"C:\\IAron\"
+            """,
+
         ),
     )
 
