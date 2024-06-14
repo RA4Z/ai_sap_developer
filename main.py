@@ -6,12 +6,11 @@ if __name__ == '__main__':
     codigo = retornar_codigo(output)
     documentation = pegar_texto_externo(output)
 
-    open('script/main.py', 'w', encoding="UTF-8").write(f"{codigo}")
-
-    origem = "C:\\Users\\robertn\\Documents\\Projetos\\PYTHON\\ai_sap_developer\\script"
+    origem = "script"
     destino = "C:\\IAron\\script"
-
     copiar_pasta(origem, destino)
+
+    open('C:\\IAron\\script\\main.py', 'w', encoding="UTF-8").write(f"{codigo}")
     cadastrar_doc(documentation, destino)
 
-    print('Execução Finalizada')
+    print('Código Criado')
