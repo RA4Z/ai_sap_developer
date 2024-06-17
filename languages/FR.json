@@ -1,0 +1,13 @@
+{
+  "not_found": "Traduction introuvable !",
+  "title": "IAron - Développeur d'automatisations SAP",
+  "exec_title": "Pour exécuter ce système, l'utilisateur doit renseigner le champ à côté avec l'intégralité de la procédure à effectuer par l'automatisation.\nAprès avoir cliqué sur le bouton de création de l'automatisation, l'utilisateur doit accéder au dossier \"C:\\\\IAron\\\"",
+  "create": "Créer une automatisation",
+  "hint_text": "Invite pour IAron",
+  "error": "Une erreur s'est produite lors de la tentative de génération du code! Veuillez réessayer!",
+  "success": "Code généré avec succès!",
+  "creator": "© 2024 PCP WEN - Développé et prototypé par Robert Aron Zimmermann.",
+  "prompt_model": "Titre: Script Python par défaut\nDescription: Modèle par défaut pour les automatisations SAP, développé par Robert Aron Zimmermann, à l'aide du modèle d'invite ajusté de Google AI Studio\nDemandé par: Robert Aron Zimmermann\nDéveloppé par: Robert Aron Zimmermann\n\nRemarques:\nAjouter la gestion des erreurs pour éviter que le code ne plante\nSAP doit avoir la langue FR sélectionnée\n\n\nProcédure:\n\nTransaction COHV\nÉcrire dans le champ \"Disposition\" le texte \"/usin_exce\"\nCocher \"Ordres de production\"\nExécuter\nCollecter les données de la colonne \"AUFNR\"",
+  "idioma": "Francês",
+  "doc": "Documentation"
+}
