@@ -1,15 +1,16 @@
 import flet as ft
 from gemini import run_automation
-
+from language_translation import Language
+lang = Language()
 
 def main(page: ft.Page):
-    page.title = "IAron - SAP Automation's Developer"
+    page.title = lang.search('title')
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
 
     page.add(
         ft.Text(
-            "IAron - SAP Automation's Developer",
+            lang.search('title'),
             size=24,
             weight=ft.FontWeight.BOLD,
             text_align=ft.TextAlign.CENTER,
@@ -23,24 +24,8 @@ def main(page: ft.Page):
             multiline=True,
             expand=True,
             border_radius=ft.border_radius.all(5),
-            hint_text="Prompt para IAron",
-            value="""Título: Python Default Script
-Descrição: Default model for SAP automations, developed by Robert Aron Zimmermann, using Google AI Studio tuned prompt model
-Solicitado por: Robert Aron Zimmermann
-Desenvolvido por: Robert Aron Zimmermann
-
-Observações:
-Adicionar Tratativas de erro para evitar que o código trave
-
-
-Procedimento:
-
-Transação COHV
-Escrever no campo "Layout" o texto "/usin_exce"
-flegar "Ordens de produção"
-executar
-coletar dados da coluna "AUFNR"
-"""
+            hint_text=lang.search('hint_text'),
+            value=lang.search('prompt_model')
         ),
     )
 
@@ -49,16 +34,12 @@ coletar dados da coluna "AUFNR"
             expand=True,
             size=20,
             text_align=ft.TextAlign.CENTER,
-            value="""
-Para executar esse sistema o usuário deve preencher no campo ao lado todo o procedimento que deverá ser realizado pela automatização. 
-Após pressionar o botão para criar a automatização o usuário deverá acessar a pasta \"C:\\IAron\"
-            """,
-
+            value=lang.search('exec_title'),
         ),
     )
 
     button = ft.ElevatedButton(
-        text="Criar Automatização",
+        text=lang.search('create'),
         on_click=lambda e: executar(),
         width=200,  # Define a largura do botão
         height=50,  # Define a altura do botão
@@ -79,12 +60,12 @@ Após pressionar o botão para criar a automatização o usuário deverá acessa
         status = run_automation(input_container.content.value)
         if not status:
             dlg = ft.AlertDialog(
-                title=ft.Text("Ocorreu algum erro ao tentar gerar o código! Tente novamente!", color=ft.colors.RED),
+                title=ft.Text(lang.search('error'), color=ft.colors.RED),
                 on_dismiss=lambda e: print("Dialog dismissed!")
             )
         else:
             dlg = ft.AlertDialog(
-                title=ft.Text("Código gerado com sucesso!"),
+                title=ft.Text(lang.search('success')),
                 on_dismiss=lambda e: print("Dialog dismissed!")
             )
 
@@ -99,7 +80,7 @@ def create_footer():
             [
                 ft.Image(src="./images/logo.png", width=100, height=50),  # Substitua por seu caminho da imagem
                 ft.Text(
-                    "© 2024 PCP WEN - Desenvolvido e Prototipado por Robert Aron Zimmermann.",
+                    lang.search('creator'),
                     size=12,
                     weight=ft.FontWeight.NORMAL,
                     text_align=ft.TextAlign.CENTER,
