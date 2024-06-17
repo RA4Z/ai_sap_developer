@@ -2,7 +2,6 @@ import google.generativeai as genai
 from gemini_data import data
 from language_translation import Language
 import os
-lang = Language()
 
 genai.configure(api_key=os.environ['GEMINI_API_KEY'])
 
@@ -41,6 +40,7 @@ model = genai.GenerativeModel(
 
 
 def develop_code(prompt: str):
+    lang = Language()
     response = model.generate_content([
         f"""Sempre irei criar o código em Python e entregar uma documentação sobre o código em {lang.search('idioma')}. 
   ao terminar de escrever o código eu irei escrever "----fimpython----",

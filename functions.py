@@ -1,7 +1,6 @@
 import shutil
 from docx import Document
 from language_translation import Language
-lang = Language()
 
 def retornar_codigo(texto: str):
     indice_inicio = 0
@@ -32,6 +31,7 @@ def copiar_pasta(origin: str, destiny: str):
         print(f"Erro ao copiar pasta: {e}")
 
 def cadastrar_doc(documentation: str, path: str):
+    lang = Language()
     doc = Document()
     doc.add_paragraph(documentation)
     doc.save(f"{path}\\{lang.search('doc')}.docx")
