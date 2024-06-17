@@ -7,7 +7,6 @@ import subprocess
 def run_automation(user_input: str):
     output = develop_code(user_input)
     if output is not None:
-        print(output)
         codigo = retornar_codigo(output)
         documentation = pegar_texto_externo(output)
         file = f"script {time.strftime('%d_%m_%y_%H-%M-%S', time.localtime())}"
