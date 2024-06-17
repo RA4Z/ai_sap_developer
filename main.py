@@ -59,7 +59,7 @@ Após pressionar o botão para criar a automatização o usuário deverá acessa
 
     button = ft.ElevatedButton(
         text="Criar Automatização",
-        on_click=lambda e: run_automation(input_container.content.value),
+        on_click=lambda e: executar(),
         width=200,  # Define a largura do botão
         height=50,  # Define a altura do botão
     )
@@ -74,6 +74,23 @@ Após pressionar o botão para criar a automatização o usuário deverá acessa
     )
     page.scroll = "always"
     page.update()
+
+    def executar():
+        status = run_automation(input_container.content.value)
+        if not status:
+            dlg = ft.AlertDialog(
+                title=ft.Text("Ocorreu algum erro ao tentar gerar o código! Tente novamente!", color=ft.colors.RED),
+                on_dismiss=lambda e: print("Dialog dismissed!")
+            )
+        else:
+            dlg = ft.AlertDialog(
+                title=ft.Text("Código gerado com sucesso!"),
+                on_dismiss=lambda e: print("Dialog dismissed!")
+            )
+
+        page.dialog = dlg
+        dlg.open = True
+        page.update()
 
 
 def create_footer():
