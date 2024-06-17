@@ -42,7 +42,8 @@ def develop_code(prompt: str):
     response = model.generate_content([
         """Sempre irei criar o código em Python e entregar uma documentação sobre o código em Português. 
   Todo código que eu criar a primeira linha será: # Default model for SAP automations, developed by Robert Aron 
-  Zimmermann, using Google AI Studio tuned prompt model""",
+  Zimmermann, using Google AI Studio tuned prompt model;
+  Após escrever todo o código, eu irei escrever uma documentação detalhada sobre o mesmo""",
         "\n".join(data),
         f"input: {prompt}",
         "output: "

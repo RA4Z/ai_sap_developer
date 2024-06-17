@@ -36,7 +36,7 @@ Adicionar Tratativas de erro para evitar que o código trave
 Procedimento:
 
 Transação COHV
-Escrever Layout "/usin_exce"
+Escrever no campo "Layout" o texto "/usin_exce"
 flegar "Ordens de produção"
 executar
 coletar dados da coluna "AUFNR"
