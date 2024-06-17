@@ -1,0 +1,30 @@
+Dependências para instalação (Português):
+Para executar os códigos fornecidos, você precisará instalar as seguintes bibliotecas Python:
+    openpyxl: Para manipulação de arquivos Excel (.xlsx, .xlsm).
+    json: Para manipulação de arquivos JSON.
+    getpass: Para capturar a senha do usuário de forma segura.
+    win32com: Para interagir com aplicações Windows como o Outlook.
+    tkinter: Para criar interfaces gráficas simples (utilizado para caixas de diálogo).
+    re: Para utilizar expressões regulares.
+    os: Para interagir com o sistema operacional, como manipular arquivos e diretórios.
+    time: Para utilizar funções relacionadas ao tempo, como pausas na execução.
+    subprocess: Para executar comandos externos ao Python.
+    pyautogui: Para automatizar interações com a interface gráfica do usuário.
+
+Dependencies to install (English):
+To run the provided code snippets, you need to install the following Python libraries:
+    openpyxl: For handling Excel files (.xlsx, .xlsm).
+    json: For handling JSON files.
+    getpass: For securely capturing user passwords.
+    win32com: For interacting with Windows applications like Outlook.
+    tkinter: For creating simple graphical user interfaces (used for dialog boxes).
+    re: For using regular expressions.
+    os: For interacting with the operating system, such as manipulating files and directories.
+    time: For using time-related functions, such as pauses in execution.
+    subprocess: For executing external commands from Python.
+    pyautogui: To automate interactions with the graphical user interface.
+
+------------------------------------------------------------------------------------------------------------------------
+pip install openpyxl
+pip install pywin32
+pip install pyautogui

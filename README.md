@@ -29,3 +29,34 @@
 * ***Enhanced productivity:*** Achieve faster results with minimal errors thanks to IAron's precision.
 
 * ***Easy to use:*** No coding experience required. Simply describe your desired outcome.
+
+## Getting Started
+
+This project is a user-friendly interface to generate Python code and documentation with the help of Google Gemini AI.
+
+### Prerequisites
+
+* **Python 3.7 or higher:** You can download the latest version from [https://www.python.org/](https://www.python.org/).
+* **pip:** Python's package manager should be installed by default with Python.
+* **API Key** You can get Google AI Studio API Key in https://aistudio.google.com/app/apikey
+* **SAP Credentials** You will need access to your SAP system.
+
+### Installation
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    ```
+2. **Install the dependencies**
+    ```bash
+    pip install flet
+    pip install openpyxl
+    pip install google-generativeai
+    pip install shutil
+    pip install python-docx
+    ```
+3. **Set your Google AI Studio API key as an environment variable**
+    ```bash
+    export GOOGLE_API_KEY="YOUR_API_KEY"  # On Linux/macOS
+    set GOOGLE_API_KEY="YOUR_API_KEY"   # On Windows
+      ```
