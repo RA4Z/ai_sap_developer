@@ -88,11 +88,11 @@ def main(page: ft.Page):
         on_change=dropdown_changed,
         hint_text="Select Language",
         options=[
-            ft.dropdown.Option("EN", visible=lang.language != 'EN'),
-            ft.dropdown.Option("PT", visible=lang.language != 'PT'),
-            ft.dropdown.Option("ES", visible=lang.language != 'ES'),
-            ft.dropdown.Option("FR", visible=lang.language != 'FR'),
-            ft.dropdown.Option("DE", visible=lang.language != 'DE'),
+            ft.dropdown.Option("EN"),
+            ft.dropdown.Option("PT"),
+            ft.dropdown.Option("ES"),
+            ft.dropdown.Option("FR"),
+            ft.dropdown.Option("DE"),
         ],
         width=200,
     )
