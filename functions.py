@@ -44,7 +44,7 @@ def cadastrar_worksheet(output: str, path: str):
     if match:
         nome_arquivo = match.group(1)
         # Verifica a extensão do arquivo e cria a planilha com a biblioteca correta
-        if nome_arquivo.endswith('.xlsm'):
+        if nome_arquivo.endswith(('.xlsm', '.xls')):  # Inclui .xls
             workbook = xw.Book()  # Cria com xlwings para macros
             workbook.sheets.add("Principal")  # Cria a sheet "Principal"
         else:
@@ -53,7 +53,7 @@ def cadastrar_worksheet(output: str, path: str):
             worksheet.title = "Principal"  # Define o nome da primeira planilha
 
         workbook.save(f'{path}/{nome_arquivo}')
-        if nome_arquivo.endswith('.xlsm'):
+        if nome_arquivo.endswith(('.xlsm', '.xls')):
             workbook.close()
 
         print(f"Planilha '{nome_arquivo}' criada com sucesso!")

@@ -1,7 +1,7 @@
 {
   "not_found": "Übersetzung nicht gefunden!",
   "title": "IAron - SAP-Automatisierungsentwickler",
-  "exec_title": "Um dieses System auszuführen, muss der Benutzer das Feld daneben mit der gesamten Prozedur ausfüllen, die von der Automatisierung durchgeführt werden soll.\nNachdem der Benutzer auf die Schaltfläche zum Erstellen der Automatisierung geklickt hat, sollte er auf den Ordner \"C:\\\\IAron\\\" zugreifen.",
+  "exec_title": "Um dieses System auszuführen, muss der Benutzer das Feld daneben mit der gesamten Prozedur ausfüllen, die von der Automatisierung durchgeführt werden soll.\nNachdem der Benutzer auf die Schaltfläche zum Erstellen der Automatisierung geklickt hat, sollte er auf den Ordner \"C:\\IAron\\\" zugreifen.",
   "create": "Automatisierung erstellen",
   "hint_text": "Eingabe für IAron",
   "error": "Beim Versuch, den Code zu generieren, ist ein Fehler aufgetreten! Bitte versuchen Sie es erneut!",
@@ -9,5 +9,6 @@
   "creator": "© 2024 PPC WEN - Entwickelt und prototypisiert von Robert Aron Zimmermann.",
   "prompt_model": "Titel: Python-Standardskript\nBeschreibung: Standardmodell für SAP-Automatisierung, entwickelt von Robert Aron Zimmermann, mit dem auf Google AI Studio abgestimmten Prompt-Modell\nAngefordert von: Robert Aron Zimmermann\nEntwickelt von: Robert Aron Zimmermann\n\nHinweise:\nFehlerbehandlung hinzufügen, um zu verhindern, dass der Code abstürzt\nSAP muss die Sprache DE ausgewählt haben\n\n\nProzedur:\n\nTransaktion COHV\nSchreiben Sie in das Feld \"Layout\" den Text \"/usin_exce\"\nAktivieren Sie \"Produktionsaufträge\"\nAusführen\nDaten aus der Spalte \"AUFNR\" sammeln",
   "idioma": "Alemão",
+  "select_language": "Sprache auswählen",
   "doc": "Dokumentation"
 }

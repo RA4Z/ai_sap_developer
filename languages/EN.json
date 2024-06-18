@@ -1,7 +1,7 @@
 {
   "not_found": "Translation not found!",
   "title": "IAron - SAP Automation's Developer",
-  "exec_title": "To run this system, the user must fill in the field next to it with the entire procedure to be performed by the automation.\nAfter pressing the button to create the automation, the user should access the folder \"C:\\\\IAron\\\"",
+  "exec_title": "To run this system, the user must fill in the field next to it with the entire procedure to be performed by the automation.\nAfter pressing the button to create the automation, the user should access the folder \"C:\\IAron\\\"",
   "create": "Create Automation",
   "hint_text": "Prompt for IAron",
   "error": "An error occurred while trying to generate the code! Try again!",
@@ -9,5 +9,6 @@
   "creator": "© 2024 PPC WEN - Developed and Prototyped by Robert Aron Zimmermann.",
   "prompt_model": "Title: Python Default Script\nDescription: Default model for SAP automations, developed by Robert Aron Zimmermann, using Google AI Studio tuned prompt model\nRequested by: Robert Aron Zimmermann\nDeveloped by: Robert Aron Zimmermann\n\nNotes:\nAdd Error Handling to prevent the code from crashing\nSAP must have the language EN selected\n\n\nProcedure:\n\nTransaction COHV\nWrite in the \"Layout\" field the text \"/usin_exce\"\nCheck \"Production Orders\"\nExecute\nCollect data from the column \"AUFNR\"",
   "idioma": "Inglês",
+  "select_language": "Select Language",
   "doc": "Documentation"
 }
