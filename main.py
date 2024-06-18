@@ -86,7 +86,7 @@ def main(page: ft.Page):
 
     lang_selector = ft.Dropdown(
         on_change=dropdown_changed,
-        hint_text="Select Language",
+        hint_text=lang.search('select_language'),
         options=[
             ft.dropdown.Option("EN"),
             ft.dropdown.Option("PT"),
