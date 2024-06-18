@@ -1,5 +1,5 @@
 from gemini_config import develop_code
-from functions import retornar_codigo, pegar_texto_externo, copiar_pasta, cadastrar_doc
+from functions import retornar_codigo, pegar_texto_externo, copiar_pasta, cadastrar_doc, cadastrar_worksheet
 import time
 import subprocess
 
@@ -18,6 +18,7 @@ def run_automation(user_input: str):
 
             open(f'C:\\IAron\\{file}\\main.py', 'w', encoding="UTF-8").write(f"{codigo}")
             cadastrar_doc(documentation, destino)
+            cadastrar_worksheet(output, destino)
             subprocess.run(['explorer', destino])
             return True
         except Exception as e:
