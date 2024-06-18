@@ -45,7 +45,7 @@ This project is a user-friendly interface to generate Python code and documentat
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/RA4Z/ai_sap_developer.git
     ```
 2. **Install the dependencies**
     ```bash
@@ -57,6 +57,6 @@ This project is a user-friendly interface to generate Python code and documentat
     ```
 3. **Set your Google AI Studio API key as an environment variable**
     ```bash
-    export GOOGLE_API_KEY="YOUR_API_KEY"  # On Linux/macOS
-    set GOOGLE_API_KEY="YOUR_API_KEY"   # On Windows
+    export GEMINI_API_KEY="YOUR_API_KEY"  # On Linux/macOS
+    set GEMINI_API_KEY="YOUR_API_KEY"   # On Windows
       ```
